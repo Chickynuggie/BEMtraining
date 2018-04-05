@@ -1,0 +1,45 @@
+.some-component {
+    &__wrapper {
+        height: 86%;
+        width: 0;
+        z-index: 10;
+        margin-left: 24px;
+    }
+
+    &__title {
+        height: 56px;
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+        font-weight: 500;
+        position: fixed;
+        top: 100px;
+        width: 230px;
+        background-color: #2e2e36;
+        z-index: 20;
+        margin-top: -20px;
+        padding-top: 20px;
+    }
+
+    &__tools-container {
+        height: 100%;
+    }
+
+    &__tools-interface-container {
+        background: #2e2e36;
+        padding: 60px 24px 16px;
+        position: relative;
+    }
+
+    &__tools-item {
+        color: blue;
+        border: 1px solid orange;
+
+        &--red {
+            color: red;
+        }
+
+        &:hover {
+            color: skyblue;
+        }
+    }
+}

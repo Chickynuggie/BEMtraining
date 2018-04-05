@@ -1,0 +1,23 @@
+.row {
+    width: 100%;
+  }
+  
+  [class*='col-'] {
+    display: inline-block;
+  }
+  
+  .col-1-6 {
+    width: 16.66%;
+  }
+  .col-2-6 {
+    width: 33.33%;
+  }
+  .col-3-6 {
+    width: 50%;
+  }
+  .col-4-6 {
+    width: 66.66%;
+  }
+  .col-5-6 {
+    width: 83.33%;
+  }
